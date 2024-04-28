@@ -3,52 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio Site</title>
+    <title>Your Name - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="background">
-        <video autoplay muted loop id="background-video">
-            <source src="background-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="content">
-            <!-- Content goes here -->
-            <div class="container">
-                <div class="profile-card">
-                    <div class="banner">
-                        <!-- Banner content goes here -->
-                        <img src="banner.png" alt="Banner Image">
-                    </div>
-                    <div class="profile-info">
-                        <img id="profile-pic" src="default-profile-pic.gif" alt="Profile Picture">
-                        <h2 id="username">User Name</h2>
-                    </div>
-                    <p>Bio information goes here...</p>
-                    <div class="social-links">
-                        <!-- Social media icons and links go here -->
-                        <a href="https://www.facebook.com/example" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.twitter.com/example" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/example" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        <!-- Add more social media icons and links as needed -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="setVolume.js"></script>
-    <script>
-        function previewProfilePic(event) {
-            var profilePic = document.getElementById('profile-pic');
-            profilePic.src = URL.createObjectURL(event.target.files[0]);
-        }
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        // Add audio element dynamically
-        var audio = new Audio('background-music.mp3');
-        audio.loop = true;
-        audio.autoplay = true;
-        audio.volume = 0.0; // Adjust volume as needed
-        audio.play();
-    </script>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio items here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your@email.com</p>
+        <p>Phone: +1234567890</p>
+        <!-- You can add more contact information or a contact form if you want -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
