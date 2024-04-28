@@ -3,22 +3,22 @@ vCard - Personal Portfolio
 # sidebar
 
 alt = Richard hanrick
-Richard hanrick
-Web developer
+Reindert Heemskerk
+IT Student in BE
 
 Show Contacts
 
 Email
-richard@example.com
+/
 
 Phone
-+1 (213) 352-2795
+/
 
 Birthday
-June 23, 1982
+/
 
 Location
-Sacramento, California, USA
+Vlaams Brabant, Belguim
 
 # navbar
 
@@ -32,9 +32,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+I'm an IT student based in Belgium, with a passion for technology and a diverse range of interests. Currently, I'm deeply involved in Red Teaming, Software Development, Web Development, Networking (Personal and Business), and Server Configuration. My approach to problem-solving is to tackle complex issues and simplify them into elegant and intuitive solutions. I thrive on challenges and enjoy the process of turning ideas into reality through creative and innovative design. With a background in both web development and print media, I bring a unique blend of skills to every project, ensuring that the end product is not only functional and user-friendly but also visually appealing and impactful. Throughout my career, I've had the opportunity to work with many renowned brands, creating web designs that effectively convey their message and identity in the most creative way possible.
 
 
 ## service
