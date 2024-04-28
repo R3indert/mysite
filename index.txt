@@ -2,7 +2,7 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
+alt = Reindert Heemskerk
 Reindert Heemskerk
 IT Student in BE
 
@@ -15,7 +15,7 @@ Phone
 /
 
 Birthday
-/
+03/07/2000
 
 Location
 Vlaams Brabant, Belguim
