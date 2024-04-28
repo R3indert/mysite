@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <div class="background">
+        <video autoplay muted loop id="background-video">
+            <source src="background-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="content">
+            <!-- Content goes here -->
+            <div class="container">
+                <div class="profile-card">
+                    <div class="banner">
+                        <!-- Banner content goes here -->
+                        <img src="banner.png" alt="Banner Image">
+                    </div>
+                    <div class="profile-info">
+                        <img id="profile-pic" src="default-profile-pic.gif" alt="Profile Picture">
+                        <h2 id="username">User Name</h2>
+                    </div>
+                    <p>Bio information goes here...</p>
+                    <div class="social-links">
+                        <!-- Social media icons and links go here -->
+                        <a href="https://www.facebook.com/example" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/example" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/example" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <!-- Add more social media icons and links as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="setVolume.js"></script>
+    <script>
+        function previewProfilePic(event) {
+            var profilePic = document.getElementById('profile-pic');
+            profilePic.src = URL.createObjectURL(event.target.files[0]);
+        }
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+        // Add audio element dynamically
+        var audio = new Audio('background-music.mp3');
+        audio.loop = true;
+        audio.autoplay = true;
+        audio.volume = 0.0; // Adjust volume as needed
+        audio.play();
+    </script>
 </body>
 </html>
